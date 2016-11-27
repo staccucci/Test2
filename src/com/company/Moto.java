@@ -4,7 +4,7 @@ package com.company;
  * Created by sylvain on 2016-11-20.
  * Pojo pour gérer une moto
  */
-public class Moto extends IMoto {
+public class Moto implements IMoto {
     private String model;
 
     private String manufacturier;
@@ -62,5 +62,10 @@ public class Moto extends IMoto {
 
     public void setModelType(ModelType modelType) {
         this.modelType = modelType;
+    }
+
+    @Override
+    public int getRatingInfo() {
+        return 1121;
     }
 }
