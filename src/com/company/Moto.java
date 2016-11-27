@@ -4,7 +4,7 @@ package com.company;
  * Created by sylvain on 2016-11-20.
  * Pojo pour gérer une moto
  */
-public class Moto {
+public class Moto extends IMoto {
     private String model;
 
     private String manufacturier;
