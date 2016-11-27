@@ -68,4 +68,26 @@ public class Moto implements IMoto {
     public int getRatingInfo() {
         return 1121;
     }
+
+
+    /**
+     *
+     * @param _agilite: indique le niveau d'agilité de la moto
+     * @return: retourne le niveau d'agilité de la moto
+     */
+    public int getAgilite(int _agilite) {
+
+        switch (_agilite) {
+
+            case 0: {
+                return 10;
+            }
+
+            default: {
+                return 0;
+            }
+        }
+    }
+
+
 }
