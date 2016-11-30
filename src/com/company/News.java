@@ -23,5 +23,12 @@ public class News {
 
     }
 
+    /**
+     * Cette méthode permet de faire l'obtention des nouvelles via google
+     *
+    */
+    private getNews()  {
 
+
+    }
 }
