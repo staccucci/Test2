@@ -24,4 +24,13 @@ public class News {
     }
 
 
+    /**
+     *
+     * Here we get the news
+     */
+    private getNews() {
+
+
+    }
+
 }
