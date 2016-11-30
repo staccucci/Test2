@@ -11,6 +11,7 @@ package com.company;
 public class Ecurie {
     private String nom;
     private String manufacturier;
+    private strnng pilote;
 
 
     public void Ecurie(String nom, String manufacturier) {
@@ -33,4 +34,5 @@ public class Ecurie {
     public void setManufacturier(String manufacturier) {
         this.manufacturier = manufacturier;
     }
+
 }
