@@ -31,6 +31,10 @@ public class Ecurie {
         return manufacturier;
     }
 
+    /**
+     *
+     * @param manufacturier: le nom de l'écurie, faudrait ajouter un enum pour ca viarge
+     */
     public void setManufacturier(String manufacturier) {
         this.manufacturier = manufacturier;
     }
