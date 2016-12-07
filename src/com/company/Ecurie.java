@@ -11,6 +11,7 @@ package com.company;
 public class Ecurie {
     private String nom;
     private String manufacturier;
+    private strnng pilote;
 
 
     public void Ecurie(String nom, String manufacturier) {
@@ -30,7 +31,12 @@ public class Ecurie {
         return manufacturier;
     }
 
+    /**
+     *
+     * @param manufacturier: le nom de l'écurie, faudrait ajouter un enum pour ca viarge
+     */
     public void setManufacturier(String manufacturier) {
         this.manufacturier = manufacturier;
     }
+
 }

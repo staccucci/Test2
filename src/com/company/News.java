@@ -16,7 +16,7 @@ public class News {
 
     /**
      *
-     * @param _searchParameters: Liste de paramètres de recherche pour obtenir des nouvelles sur un modèle
+     * @param _searchParameters: Liste de paramètres de recherche pour obtenir des nouvelles
      */
     public void News(List<String> _searchParameters) {
         searchParameters = _searchParameters;
