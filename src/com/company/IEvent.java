@@ -6,5 +6,6 @@ package com.company;
 public interface IEvent {
 
     void ProcessEvent(String eventName);
+    String getEventName();
 
 }

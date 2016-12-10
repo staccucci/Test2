@@ -15,5 +15,8 @@ public class EventBase implements IEvent {
             this.eventName = eventName;
     }
 
-
+    @Override
+    public String getEventName() {
+        return eventName;
+    }
 }

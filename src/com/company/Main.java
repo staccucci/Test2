@@ -6,7 +6,7 @@ public class Main {
 
         System.out.println("Ceci est un test de marde");
 
-        /// On est loin de C++ ici!!!
+        // On est loin de C++ ici!!!
 
         if (args.length > 0 && (args[0].equals("Sylvain"))) {
              System.exit(24);
@@ -30,6 +30,14 @@ public class Main {
             System.out.println("Those fuckers are equal");
         }
 
+
+        // Testing event processsing
+
+        MotorCycleNewsEvent motoNewsEvent1 = new MotorCycleNewsEvent();
+
+        motoNewsEvent1.ProcessEvent("Envie de chier");
+
+        EventProcessor.ProcessEvent(motoNewsEvent1);
 
 
     }
