@@ -11,7 +11,7 @@ package com.company;
 public class Ecurie {
     private String nom;
     private String manufacturier;
-    private strnng pilote;
+    private String pilote;
 
 
     public void Ecurie(String nom, String manufacturier) {
