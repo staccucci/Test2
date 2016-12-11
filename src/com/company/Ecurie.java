@@ -35,9 +35,4 @@ public class Ecurie {
         this.manufacturier = manufacturier;
     }
 
-    
-    private int obtenirPosition(int annee) {
-
-    }
-
 }
