@@ -1,0 +1,32 @@
+<DataMoto>
+    <List>
+        <Item>
+            <Manufacturier>Yamaha</Manufacturier>
+            <Modele>R1</Modele>
+            <HP>200</HP>
+            <Torque>83</Torque>
+            <Poid>200</Poid>
+         </Item>
+        <Item>
+            <Manufacturier>Yamaha</Manufacturier>
+            <Modele>R6</Modele>
+            <HP>200</HP>
+            <Torque>83</Torque>
+            <Poid>200</Poid>
+        </Item>
+        <Item>
+            <Manufacturier>Aprilia</Manufacturier>
+            <Modele>RSV4RF</Modele>
+            <HP>201</HP>
+            <Torque>83</Torque>
+            <Poid>189</Poid>
+        </Item>
+        <Item>
+            <Manufacturier>Triumph</Manufacturier>
+            <Modele>Daytona 695</Modele>
+            <HP>135</HP>
+            <Torque>59</Torque>
+            <Poid>200</Poid>
+        </Item>
+    </List>
+</DataMoto>
