@@ -28,5 +28,12 @@
             <Torque>59</Torque>
             <Poid>200</Poid>
         </Item>
+        <Item>
+            <Manufacturier>BMW</Manufacturier>
+            <Modele>1000rr</Modele>
+            <HP>200</HP>
+            <Torque>00</Torque>
+            <Poid>00</Poid>
+        </Item>
     </List>
 </DataMoto>
