@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="DataMoto" type="DataMotoType"/>
+  <xs:complexType name="DataMotoType">
+    <xs:sequence>
+      <xs:element type="ListType" name="List"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ItemType">
+    <xs:sequence>
+      <xs:element name="Manufacturier">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Yamaha"/>
+            <xs:enumeration value="Aprilia"/>
+            <xs:enumeration value="Triumph"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Modele">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="R1"/>
+            <xs:enumeration value="R6"/>
+            <xs:enumeration value="RSV4RF"/>
+            <xs:enumeration value="Daytona 695"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="HP">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="200"/>
+            <xs:enumeration value="201"/>
+            <xs:enumeration value="135"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Torque">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="83"/>
+            <xs:enumeration value="59"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Poid">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="200"/>
+            <xs:enumeration value="189"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListType">
+    <xs:sequence>
+      <xs:element type="ItemType" name="Item" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
