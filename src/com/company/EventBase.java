@@ -12,6 +12,7 @@ public class EventBase implements IEvent {
 
     /*
      * Constructeur pour tester une patente d'héritage
+     * Constructeur par défaut
      */
     public EventBase() {
         System.out.println("Dans le constructeur de EventBase");
