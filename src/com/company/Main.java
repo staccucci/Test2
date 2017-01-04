@@ -39,6 +39,10 @@ public class Main {
 
         EventProcessor.ProcessEvent(motoNewsEvent1);
 
+        // Testing Constructor calls
+
+        EventGP gpEvent = new EventGP();
+
 
     }
 }
