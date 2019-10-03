@@ -21,7 +21,8 @@ public class EventBase implements IEvent {
 
     @Override
     public void ProcessEvent(String eventName) {
-            this.eventName = eventName;
+
+        this.eventName = eventName;
     }
 
     @Override

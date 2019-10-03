@@ -21,6 +21,7 @@ public class Moto implements IMoto {
     }
 
     public void setManufacturier(String manufacturier) {
+
         this.manufacturier = manufacturier;
     }
 
@@ -28,23 +29,28 @@ public class Moto implements IMoto {
         return model;
     }
 
-    public void setModel(String model) {
+    public void setModel(String model)
+    {
         this.model = model;
     }
 
     public int getHp() {
+
         return hp;
     }
 
     public void setHp(int hp) {
+
         this.hp = hp;
     }
 
     public int getTorque() {
+
         return torque;
     }
 
     public void setTorque(int torque) {
+
         this.torque = torque;
     }
 
@@ -53,19 +59,23 @@ public class Moto implements IMoto {
     }
 
     public void setPoid(int poid) {
+
         this.poid = poid;
     }
 
     public ModelType getModelType() {
+
         return modelType;
     }
 
     public void setModelType(ModelType modelType) {
+
         this.modelType = modelType;
     }
 
     @Override
     public int getRatingInfo() {
+
         return 1121;
     }
 
